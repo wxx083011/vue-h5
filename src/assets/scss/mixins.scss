@@ -1,0 +1,8 @@
+ //超出一行文本省略
+
+ @mixin overflow() {
+   overflow: hidden;
+   -ms-text-overflow: ellipsis;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+ }
